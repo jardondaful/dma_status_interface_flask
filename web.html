@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>System Information</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='web.css') }}">
+</head>
+<body>
+    <h1>System Information</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>IPv4 Address</th>
+                <th>CPU Info</th>
+                <th>Storage Device</th>
+                <th>Storage Total</th>
+                <th>Storage Used</th>
+                <th>Storage Available</th>
+                <th>Used RAM Info</th>
+                <th>Computer Type</th>
+                <th>Serial Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in data %}
+            <tr>
+                <td>{{ row.id }}</td>
+                <td>{{ row.ipv4_address }}</td>
+                <td>{{ row.cpu_info }}</td>
+                <td>{{ row.storage_device }}</td>
+                <td>{{ row.storage_total }}</td>
+                <td>{{ row.storage_used }}</td>
+                <td>{{ row.storage_avail }}</td>
+                <td>{{ row.used_ram_info }}</td>
+                <td>{{ row.computer_type }}</td>
+                <td>{{ row.serial_number }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
