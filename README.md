@@ -1,6 +1,6 @@
-# 🌟 Ansible playbook for system info and database update 🌟
+# 🌟 DMA Printlab Status Interface 🌟
 
-This Ansible playbook gathers system information such as IP address, CPU details, memory usage, and storage details from a host and stores the data in an SQLite database. It also updates the serial number in the database for macOS hosts.
+This Ansible playbook gathers system information such as IP address, CPU details, memory usage, and storage details from a host and stores the data in an SQLite database. It also updates the serial number in the database for macOS hosts. All the data is displayed in a JSON format vis Flask
 
 ## Usage
 
