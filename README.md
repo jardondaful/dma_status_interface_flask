@@ -1,5 +1,3 @@
-Sure, here's the updated version:
-
 # 🌟 Ansible playbook for system info and database update 🌟
 
 This Ansible playbook gathers system information such as IP address, CPU details, memory usage, and storage details from a host and stores the data in an SQLite database. It also updates the serial number in the database for macOS hosts.
