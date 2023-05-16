@@ -1,4 +1,5 @@
 # How to Use the DMA Printlab Interface! ✨🚀
+![image](https://github.com/jardondaful/dma_status_interface_flask/assets/68207907/01fa9d46-6090-4d4d-a8b0-d2698874d2b3)
 
 ## Prerequisites
 
