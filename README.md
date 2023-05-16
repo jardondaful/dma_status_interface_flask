@@ -22,8 +22,8 @@ Before running the application, make sure you have the following prerequisites i
 
 4. Start the Flask application by running the following command:
 
-   ```bash
-   flask run
+   ```python
+   python app.py
    ```
 
    By default, the application will be available at [http://127.0.0.1:5000](http://127.0.0.1:5000).
