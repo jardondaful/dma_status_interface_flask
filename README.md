@@ -16,7 +16,6 @@ Before running the application, make sure you have the following prerequisites i
    ```bash
    pip install -r requirements.txt
    ```
-````
 
 4. Start the Flask application by running the following command:
 
